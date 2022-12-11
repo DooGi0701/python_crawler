@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-crawler"
+version = "0.1.0"
+description = ""
+authors = ["DooGi0701 <rkddbqls1458@naver.com>"]
+readme = "README.md"
+packages = [{include = "python_crawler"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
