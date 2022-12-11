@@ -1,0 +1,28 @@
+{
+  "files.exclude": {
+    ".python-version": true,
+    ".prettierignore": true,
+    "LICENSE": true,
+  },
+  "workbench.colorCustomizations": {
+    "terminal.findMatchBackground": "#5e6370",
+    "terminal.findMatchBorder": "#5e6370",
+    "terminal.findMatchHighlightBackground": "#5e6370",
+    "terminal.findMatchHighlightBorder": "#5e6370",
+    "terminalOverviewRuler.findMatchForeground": "#5e6370",
+  },
+  "workbench.panel.defaultLocation": "right",
+  "editor.formatOnSave": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "python.languageServer": "None",
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Args": ["--max-line-length=88", "--ignore=F401,E402"],
+  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.defaultFormatter": null
+  },
+}
