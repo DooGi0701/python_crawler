@@ -26,3 +26,5 @@ for website in websites:
     elif response.status_code >= 500 and response.status_code < 600:
         results[website] = "Sever Error Code"
 print(results)  # if문을 통해서 Status Code가 무슨 코드인지 알려주는 문구
+
+##### 여기는 코드 챌린지 입니다.
