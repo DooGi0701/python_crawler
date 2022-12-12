@@ -9,6 +9,7 @@ packages = [{include = "python_crawler"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
 
 
 [build-system]
