@@ -9,4 +9,6 @@ if response.status_code != 200:
     print("Can't request website")
 else:
     soup = BeautifulSoup(response.text, "html.parser")
-    print(soup.find_all("title"))
+    jobs = soup.find_all(
+        "section", class_="jobs"
+    )  # 결과 값을 보고 싶으면 맨 앞에 있는 jobs=를 print()로 바꿔라
