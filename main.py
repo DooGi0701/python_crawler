@@ -14,6 +14,9 @@ else:
     )  # 결과 값을 보고 싶으면 맨 앞에 있는 jobs=를 print()로 바꿔라
     for job_section in jobs:
         job_posts = job_section.find_all("li")
+        job_posts.pop(-1)  # 출력항목에 있는 마지막 항목을 제거한다.
         for post in job_posts:
             print(post)
-            print("/////////////////////////")  # 출력할때 posts끼리 구분을 위함이다
+            print(
+                "////////////////////////////////////////////////////////////////"
+            )  # 출력할때 posts끼리 구분을 위함이다
