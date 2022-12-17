@@ -22,3 +22,6 @@ else:
                 "href"
             ]  # href에 접근할 수 있다 Tip : beautiful Soup는 html에 있는 태그들을 파이썬에 있는 dirtionary 처럼 바꿔 줄 수 있다
             # link를 print로 바꾸면 출력물을 볼 수 있음
+            anchor.find_all(
+                "span", class_="company"
+            )  # html li안에 있는 span부분에서 class가 company가 들어간 모든 것을 찾는다
