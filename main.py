@@ -29,8 +29,9 @@ else:
             company, kind, region = anchor.find_all(
                 "span", class_="company"
             )  # html li안에 있는 span부분에서 class가 company가 들어간 모든 것을 찾는다
-            print(
-                company, kind, region
-            )  # class를 보니깐 company라는 클래스가 너무 많아서 파이썬에 있는 문법을 사용해서 출력문을 정리함 ex : company, kind, region = 첫번째, 두번째, 세번째 company가 들어간 class이다.
 
             title = anchor.find("span", class_="title")
+            print(company, kind, region, title)  # 최종 출력물
+            print("")
+            print("////////////////////////////////////////////////////////")
+            print("")
